@@ -1,0 +1,38 @@
+<ion-header [translucent]="true">
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+        <ion-title>{{ site?.name }} </ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-card>
+        <ion-item class="ion-activated">
+            <ion-icon name="location"></ion-icon>
+            <ion-label style="color:#007265;"><b> Lieu : </b>{{ site?.lieu }}</ion-label>
+        </ion-item>
+
+        <ion-item>
+            <ion-icon name="call-outline"></ion-icon>
+            <ion-label style="color:#007265;"><b> Téléphones Mobiles : </b>{{ site?.mobile_phone }}</ion-label>
+        </ion-item>
+
+        <ion-item class="ion-activated">
+            <ion-icon name="call"></ion-icon>
+            <ion-label style="color:#007265;"><b> Téléphones Fixes : </b>{{ site?.fixed_phone }}</ion-label>
+        </ion-item>
+
+        <ion-item>
+            <ion-icon name="mail"></ion-icon>
+            <ion-label style="color:#007265;"><b> Email : </b>{{ site?.email }}</ion-label>
+        </ion-item>
+
+        <ion-item>
+            <ion-icon name="link"></ion-icon>
+            <ion-label style="color:#007265;"><b> Site Web : </b>
+                <a href="{{ site?.site_web }}">{{ site?.site_web }}</a></ion-label>
+        </ion-item>
+    </ion-card>
+</ion-content>

@@ -1,0 +1,72 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Diagnostique<ion-icon name='water'></ion-icon></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div id="container">
+    <ion-slides #slides>
+
+      <ion-slide class="start-slide">
+        <ion-list>
+          <ion-item>
+            <ion-text color="warning">
+              <h2>Ce teste à pour but de vous orienter selon votre état de santé et des symptômes que vous déclarer.
+                L'avis qu'il fournit n'a pas de valeur médicale.</h2>
+            </ion-text>
+          </ion-item>
+          <ion-item>
+            <ion-text color="primary">
+              <h2>
+                <ion-button (click)="nextSlide()" fill="clear">Demarrer le test</ion-button>
+              </h2>
+            </ion-text>
+          </ion-item>
+        </ion-list>
+      </ion-slide>
+
+      <ion-slide *ngFor="let question of questions; let i = index;">
+        <ion-card class="action-card">
+          <h3>Question {{i+1}} / {{ questions.length }} </h3>
+          <!-- <img class="header-img" src="/assets/icon_symptomes/covicon1.png" /> -->
+          <ion-card-header>
+            <ion-card-subtitle>
+              <h3>{{question.question}}</h3>
+            </ion-card-subtitle>
+          </ion-card-header>
+          <ion-card-content>
+            <ion-grid>
+              <ion-list no-lines radio-group>
+                <ion-item *ngFor="let answer of question.answers; let i = index;">
+                  <ion-label>{{i+1}}. {{answer}}</ion-label>
+                  <ion-radio (click)="selectAnswer(answer, question.mot_cle)" [checked]="answer.selected"
+                    [disabled]="hasAnswered"></ion-radio>
+                </ion-item>
+              </ion-list>
+              <ion-button (click)="previousSlide()" fill="clear">Retour</ion-button>
+            </ion-grid>
+          </ion-card-content>
+        </ion-card>
+
+      </ion-slide>
+
+      <ion-slide>
+        <ion-list no-lines radio-group>
+          <h3>Vos reponses</h3>
+          <ion-item *ngFor="let response of response">
+            <div> {{response.question}} </div>
+            <div> {{response.response}} </div>
+          </ion-item>
+        </ion-list>
+        <button (click)="restartQuiz()" ion-button full color="primary">Refaire le test</button>
+      </ion-slide>
+
+    </ion-slides>
+  </div>
+
+</ion-content>

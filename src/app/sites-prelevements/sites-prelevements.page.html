@@ -1,0 +1,34 @@
+<ion-header [translucent]="true">
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+        <ion-title>Coordonnées Des Sites de Prélèvements <ion-icon name='medkit'></ion-icon> </ion-title>
+    </ion-toolbar>
+</ion-header>
+
+
+
+<ion-content>
+    <ion-list>
+        <ion-list-header>
+            Cliquer pour voir les informations détaillées
+        </ion-list-header>
+        <ion-item *ngFor="let site of sites">
+            <ion-avatar>
+                <ion-icon name="medkit-outline"></ion-icon>
+            </ion-avatar>
+            <ion-label>
+                <h2>
+                    <a [routerLink]="['/site-view/', site.id]">{{site.name}}</a>
+                </h2>
+                <p>
+                    <span class="call">Téléphone Fixe:</span> {{site.fixed_phone}}
+                </p>
+                <p>
+                    <span class="call">Téléphone Mobile:</span> {{site.mobile_phone }}
+                </p>
+            </ion-label>
+        </ion-item>
+    </ion-list>
+</ion-content>

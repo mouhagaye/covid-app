@@ -1,0 +1,121 @@
+{
+	"questions": [
+        
+        {
+            "image": "",
+            "question": "Ces dernières 48 heures, quelle a été votre température la plus élevée ?",
+            "type_question": "choix",
+            "mot_cle" : "temperature",
+            "answers": [
+				"moins de 37.5",
+				"plus de 37.5"
+			]
+			
+        },
+        {
+            "image": "",
+            "question": "Ces derniers jours, avez-vous une toux ou une augmentation de votre toux habituelle ?",
+            "type_question": "choix",
+            "mot_cle" : "toux",
+            "answers": [
+				"Oui",
+				"Non"
+			]
+			
+        },
+        {
+            "image": "",
+            "question": "Ces derniers jours, avez-vous noté une forte diminution ou perte de votre goût ou de votre odorat ?",
+            "type_question": "choix",
+            "mot_cle" : "perte de goût ou odorat",
+            "answers": [
+				"Oui",
+				"Non"
+			]
+			
+		},
+        {
+            "image": "",
+            "question": "Ces derniers jours, avez-vous eu un mal de gorge et/ou des douleurs musculaires et/ ?ou des courbatures inhabituelles",
+            "type_question": "choix",
+            "mot_cle" : "mal gorge, douleur musculaire, courbature",
+			"answers": [
+				"Oui",
+				"Non"
+			]
+        },
+        {
+            "image": "",
+            "question": "Ces dernières 24 heures, avez-vous de la diarrhée ?",
+            "type_question": "choix",
+            "mot_cle" : "diarrhée",
+			"answers": [
+				"Oui",
+				"Non"
+			]
+        },
+        {
+            "image": "",
+            "question": "Ces derniers jours, avez-vous une fatigue inhabituelle ?",
+            "type_question": "choix",
+            "mot_cle" : "fatigue",
+			"answers": [
+				"Oui",
+				"Non"
+			]
+        },
+        {
+            "image": "",
+            "question": "Depuis 24 heures ou plus, êtes-vous dans l'impossibilité de vous alimenter ou de boire ?",
+            "type_question": "choix",
+            "mot_cle" : "difficulter alimenter ou boire",
+			"answers": [
+				"Oui",
+				"Non"
+			]
+        },
+        {
+            "image": "",
+            "question": "Ces dernières 24 heures, avez-vous noté un manque de souffle inhabituel lorsque vous parlez ou faites un petit effort ?",
+            "type_question": "choix",
+            "mot_cle" : "manque souffle",
+			"answers": [
+				"Oui",
+				"Non"
+			]
+        },
+        {
+            "image": "",
+            "question": "Quel est votre âge ?",
+            "type_question": "choix",
+            "mot_cle" : "age",
+            "answers": [
+				"moins de 15 ans",
+                "entre 15 et 49 ans",
+                "entre 50 et 70 ans",
+                "plus de 70 ans"
+			]
+        },
+        {
+            "image": "",
+            "question": "Avez-vous une maladie respiratoire ?",
+            "type_question": "choix",
+            "mot_cle" : "maladie respiratoire",
+			"answers": [
+				"Oui",
+				"Non"
+			]
+        },
+        {
+            "image": "",
+            "question": "Ou êtes-vous suivi par un pneumologue ?",
+            "type_question": "choix",
+            "mot_cle" : "suivi pneumologue",
+			"answers": [
+				"Oui",
+				"Non"
+			]
+        }
+
+	]
+}

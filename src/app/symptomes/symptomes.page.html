@@ -1,0 +1,61 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+      <!-- <ion-back-button defaultHref="/"></ion-back-button> -->
+    </ion-buttons>
+    <ion-title>Symptômes<ion-icon name='thermometer'></ion-icon></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-app>
+    <ion-content fullscreen class="ion-padding" scroll-y="false">
+      <ion-slides>
+
+        <ion-slide>
+          <div class="slide">
+            <img class="covicon" src="assets/icon_symptomes/covicon1.png" />
+            <h2>Les symptômes</h2>
+            <p>Les signes courants d’infection sont les symptômes respiratoires, <b style="color:#007265;">la fièvre</b>, <b style="color:#007265;">la toux</b>,
+              l’essoufflement et la dyspnée. Dans les cas plus graves, l’infection peut provoquer une pneumonie, un
+              syndrome respiratoire aigu sévère, une insuffisance rénale et même la mort.</p>
+          </div>
+        </ion-slide>
+
+        <ion-slide>
+          <div class="slide">
+            <img class="covicon" src="assets/icon_symptomes/covicon1.png" />
+            <h2>Fièvre</h2>
+            <p><b style="color:#007265;">La fièvre</b> n’est pas un symptôme propre au coronavirus mais une fièvre supérieure à 38° associée à
+              une toux sèche, à de la fatigue, des maux de tête ou des courbatures doit faire penser à la maladie et
+              nécessite une prise en charge.</p>
+          </div>
+        </ion-slide>
+
+        <ion-slide>
+          <img class="covicon" src="assets/icon_symptomes/covicon4.png" />
+          <h2>Toux sèche</h2>
+          <p>Dans sa forme la plus bénigne, le <b style="color:#007265;">COVID-19</b> se manifeste par une <b style="color:#007265;">toux sèche</b>. Celle-ci peut
+            être légère à intense avec des quintes pouvant faire penser à la coqueluche. Si elle est associée à de la
+            fièvre, il est impératif de consulter son médecin.</p>
+        </ion-slide>
+
+        <ion-slide>
+          <img class="covicon" src="assets/icon_symptomes/covicon2.png" />
+          <h2>Fatigue</h2>
+          <p>Un malade du coronavirus sur trois est <b style="color:#007265;">fatigué</b>. La personne atteinte peut être diminuée au point de
+            devoir rester allongée. Les symptômes sont toutefois très variables d’une personne à une autre. La durée
+            moyenne de l’incubation a été estimée à 5,2 jours.</p>
+        </ion-slide>
+
+        <ion-slide>
+          <img class="covicon" class="covicon" src="assets/icon_symptomes/covicon1.png" />
+          <ion-button routerLink="/all-symptoms" fill="clear">Tous les symptômes <ion-icon slot="end"
+              name="arrow-forward"></ion-icon>
+          </ion-button>
+        </ion-slide>
+      </ion-slides>
+    </ion-content>
+  </ion-app>
+</ion-content>

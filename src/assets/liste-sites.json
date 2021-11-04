@@ -1,0 +1,128 @@
+[{
+        "id": 1,
+        "name": "Institut Pasteur de Dakar 1",
+        "mobile_phone": [781033937, 776873569],
+        "fixed_phone": [338399233, 338399232],
+        "lieu": "36 Avenue Pasteur Dakar, Centre ville",
+        "email": "biomedsec@pasteur.sn",
+        "site_web": "http://www.pasteur.sn/"
+    },
+    {
+        "id": 2,
+        "name": "Institut Pasteur de Dakar 2",
+        "mobile_phone": [781033937, 776873569],
+        "fixed_phone": [338592851],
+        "lieu": "sur la VDN, à Côté de la Gendarmerie de la Foire",
+        "email": "cp.vdn.ipd@pasteur.sn",
+        "site_web": "http://www.pasteur.sn/"
+    },
+    {
+        "id": 3,
+        "name": "IRESSEF Diamniadio",
+        "mobile_phone": [709541871, 777016590, 775651176],
+        "fixed_phone": [338722588, 338722664],
+        "lieu": "Pôle urbain de Diamniadio",
+        "email": "cov-travel@iressef.org",
+        "site_web": "https://iressef.org/"
+    },
+    {
+        "id": 4,
+        "name": "IRESSEF Ngor",
+        "mobile_phone": [777689999, 773844747],
+        "fixed_phone": [338722588, 338722664],
+        "lieu": "en face du stade de Ngor",
+        "email": "cov-travel@iressef.org",
+        "site_web": "https://iressef.org/"
+    },
+    {
+        "id": 5,
+        "name": "Laboratoire de Bactériologie Virologie",
+        "mobile_phone": [776333017],
+        "fixed_phone": [338893800, 338235896],
+        "lieu": "Hôpital Aristide le Dantec, 30 Avenue Pasteur, Dakar",
+        "email": "ledantecinfo@gmail.com",
+        "site_web": ""
+    },
+    {
+        "id": 6,
+        "name": "Laboratoire de l'Hôpital militaire de Ouakam",
+        "mobile_phone": [762230485, 773571731],
+        "fixed_phone": [],
+        "lieu": "km 8, avenue Cheikh Anta DIOP route des Almadies Ouakam Dakar",
+        "email": "hmo-sn@hmo-sn.com",
+        "site_web": ""
+    },
+    {
+        "id": 7,
+        "name": "Laboratoire National de Santé Publique de Thiès",
+        "mobile_phone": [],
+        "fixed_phone": [],
+        "lieu": "km 8, avenue Cheikh Anta DIOP route des Almadies Ouakam Dakar",
+        "email": "hmo-sn@hmo-sn.com",
+        "site_web": ""
+    },
+    {
+        "id": 8,
+        "name": "Laboratoire du CHR de Kédougou",
+        "mobile_phone": [],
+        "fixed_phone": [],
+        "lieu": "",
+        "email": "",
+        "site_web": ""
+    },
+    {
+        "id": 9,
+        "name": "Laboratoire du CHR de Matam",
+        "mobile_phone": [],
+        "fixed_phone": [339382049],
+        "lieu": "Matam, Sénégal",
+        "email": "",
+        "site_web": ""
+    },
+    {
+        "id": 10,
+        "name": "CHR de Saint-Louis Lt Colonel Mamadou Diouf",
+        "mobile_phone": [],
+        "fixed_phone": [339610052],
+        "lieu": "Boulevard Abdoulaye Mar Diop, Saint-Louis, Sénégal",
+        "email": "infos@hopital-saintlouis.sn",
+        "site_web": ""
+    },
+    {
+        "id": 11,
+        "name": "Centre Hospitalier Régional El hadji Ibrahima NIASS Kaolack",
+        "mobile_phone": [],
+        "fixed_phone": [339384151, 339384142, 339411737],
+        "lieu": "Av Valdiodio Ndiaye, Kaolack, Sénégal",
+        "email": "infos@hopital-kaolack.org",
+        "site_web": ""
+    },
+    {
+        "id": 12,
+        "name": "Hôpital Régional de Ziguinchor",
+        "mobile_phone": [],
+        "fixed_phone": [339911154],
+        "lieu": "Avenue Emile Badiane, Ziguinchor, Sénégal",
+        "email": "",
+        "site_web": ""
+    },
+    {
+        "id": 13,
+        "name": "Institut Pasteur de Touba",
+        "mobile_phone": [],
+        "fixed_phone": [],
+        "lieu": "Laboratoire mobile",
+        "email": "",
+        "site_web": "http://www.pasteur.sn/"
+    },
+    {
+        "id": 14,
+        "name": "Institut Pasteur de Kolda",
+        "mobile_phone": [],
+        "fixed_phone": [],
+        "lieu": "Laboratoire mobile",
+        "email": "",
+        "site_web": "http://www.pasteur.sn/"
+    }
+
+]
